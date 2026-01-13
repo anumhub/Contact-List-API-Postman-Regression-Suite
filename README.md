@@ -40,3 +40,29 @@ newman run postman/ContactList.postman_collection.json \
 - Reduces manual regression effort by an estimated 30–40%
 - Enables CLI-based execution for future CI/CD integration
 
+## Project Artifacts & Documentation
+This repository includes multiple forms of documentation to present the project clearly at different levels of detail:
+
+### 1. Gamma Presentation (Visual Overview)
+A concise, visual walkthrough of the project created using Gamma AI.
+- Summarizes the API testing approach, coverage, and business value
+- Intended for quick understanding by recruiters and hiring managers
+
+📄 File: `API-Automation-Project-Contact-List-API.pdf`
+
+### 2. Detailed PDF Documentation
+A comprehensive, step-by-step document covering:
+- API endpoints and test scenarios
+- Authentication flow using JWT
+- Environment variable handling
+- Positive and negative test cases
+- Assertions and validations strategy
+
+📄 File: `Postman-API Testing-2.pdf`
+
+### 3. Postman Collections & Environment Files
+Runnable Postman artifacts included for hands-on validation:
+- Postman collection JSON
+- Postman environment JSON
+- Can be directly imported into Postman or executed via Newman
+
